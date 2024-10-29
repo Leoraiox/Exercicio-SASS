@@ -1,0 +1,31 @@
+// base.scss
+
+// Variáveis
+$primary-color: #182C61;
+$secondary-color: #44bd32;
+$hover-color: #4cd137;
+$background-color: #f5f6fa;
+$font-family: 'Roboto', sans-serif;
+$container-width: 1024px;
+
+// Estilos globais
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-family;
+}
+
+body {
+    background-color: $background-color;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: $container-width;
+    width: 100%;
+    margin: 0 auto;
+}
